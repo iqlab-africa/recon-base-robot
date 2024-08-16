@@ -2,5 +2,12 @@
     "python.analysis.extraPaths": [
         "/Users/aubreymalabie/Work/iqlabs/recon-base-robot/."
     ],
-    "python.terminal.activateEnvironment": false
+    "python.terminal.activateEnvironment": false,
+    "cSpell.words": [
+        "accountname",
+        "keyvault",
+        "PYTHONPATH",
+        "robocorp",
+        "storagekey"
+    ]
 }
