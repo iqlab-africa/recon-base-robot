@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "/Users/aubreymalabie/Work/iqlabs/recon-base-robot/."
+    ],
+    "python.terminal.activateEnvironment": false
+}
