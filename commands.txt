@@ -1,1 +1,16 @@
-./push.sh ~/.ssh/i_account2 git@github.com:iqlab-africa/recon-base-robot.git "🔵 initial commit"
+./push.sh ~/.ssh/i_account2 git@github.com:iqlab-africa/recon-base-robot.git "🅿️ 🅿️  refactored file downloading"
+
+{
+    "location": "southafricanorth",
+    "tags": {
+        "recon": "recon"
+    },
+    "id": "/subscriptions/5ceb3141-1061-44b7-9b13-5a45a3d0e797/resourcegroups/AzureDannysAPI/providers/Microsoft.ManagedIdentity/userAssignedIdentities/reconidenity",
+    "name": "reconidenity",
+    "type": "Microsoft.ManagedIdentity/userAssignedIdentities",
+    "properties": {
+        "tenantId": "410001f8-72da-44cb-bb48-6539133f22f6",
+        "principalId": "96a6691f-fd7d-4f23-8ccf-4b6c31e87b62",
+        "clientId": "0a2ec6da-a123-40be-a959-c8006f09b1e0"
+    }
+}

@@ -1,37 +1,46 @@
 import json
 import random
-from sqlite3 import Date
 import requests
 from robocorp.tasks import task
+from robocorp import workitems
 from datetime import datetime
-from auth import get_database_connection_string, get_key
 import pandas as pd
 
 PING_URL = "https://autofunctionapp.azurewebsites.net/api/ping"
 DEV_ADD_USER_URL = "https://autofunctionapp.azurewebsites.net/api/adddevuser"
 DEV_LIST_USERS = "https://autofunctionapp.azurewebsites.net/api/listdevusers"
+WEBHOOK = "https://autofunctionapp.azurewebsites.net/api/webhook"
+DOWNLOAD = "https://autofunctionapp.azurewebsites.net/api/download"
+
+CSV_FILE_NAME = "footbal_players.csv"
+CSV_OUTPUT_FILE_PATH = "output/players.csv"
+tag = "🍐🍐 ReconBaseRobot 🍐 "
+
 
 @task
 def dev_robot_task():
-    '''Demonstrate connection to Azure Functions and Postgres database'''
+    """Demonstrate connection to Azure Functions and Postgres database. Read the code to see the different api's"""
+    print(f"\n\n{tag} ReconBaseRobot starting ...")
     ping()
     add_user()
     get_users()
-    download_file_from_azure_storage('football_players.xlsx')
+    download_files_from_azure_storage()
+    print(f"\n\n{tag} ReconBaseRobot completed  🥬 \n\n")
 
 
 def ping():
-    '''Ping Azure function'''
+    """Ping Azure Functions"""
     print(f"\n... 💙 💙 💙 calling {PING_URL}")
     res = requests.get(url=PING_URL)
     print(f"🔴 🔴 Ping response, 🥬 status_code: {res.status_code} \n{res.text}\n\n ")
 
+
 def add_user():
-    '''Call Azure function to add dev user'''
+    """Call Azure function to add dev user"""
     print(f"\n... 💙 💙 💙 calling {DEV_ADD_USER_URL}")
 
     try:
-        name = f'Aubrey #{random.random()}'
+        name = f"Player #{random.random()}"
         data = {"name": name}
         json_object = json.dumps(data)
         res = requests.post(
@@ -44,6 +53,7 @@ def add_user():
     except Exception as e:
         print(f"Error adding user: 😈 {e} 😈")
 
+
 def get_users():
     """Call Azure function to list dev users"""
     print(f"\n... 💙 💙 💙 calling {DEV_LIST_USERS}")
@@ -55,36 +65,131 @@ def get_users():
         for m in m_json:
             print(f"🔶🔶 dev user: {m}")
 
-        print(f"\n🍐 🍐 get_users response, 🥬 status_code: {res.status_code} users:{len(m_json)}\n\n ")
+        print(
+            f"\n🍐 🍐 get_users response, 🥬 status_code: {res.status_code} users:{len(m_json)}\n\n "
+        )
     except Exception as e:
         print(f"😈 Error listing users: 😈 {e} 😈")
 
 
 from azure.storage.blob import BlobServiceClient
 
-def download_file_from_azure_storage(blob_name):
 
-    storage_key = get_key("storagekey")
-    container_name = get_key("containername")
-    account_name = get_key("accountname")
-    print(
-        f"🔆 account_name: {account_name} 🔆 container_name: {container_name} 🔆 account_key:{storage_key}"
+def download_files_from_azure_storage():
+    """Download files from Azure Storage account. download both excel and csv versions and create dataFrames"""
+
+    player_list = []
+    csv_data_frame: pd.DataFrame = _download(CSV_FILE_NAME)
+    if csv_data_frame is not None:
+        player_list = _print_data_frame(csv_data_frame)
+
+    if len(player_list) > 0:
+        create_work_items(player_list)
+    else:
+        print(
+            f"\n{tag} 👿 download stumbled, grumbled and fell down!, no workitems will be created! 👿👿👿\n"
+        )
+
+
+def _print_data_frame(df: pd.DataFrame) -> list:
+
+    print(f"{tag} head: {df.head()}\n")
+    print(f"{tag} tail: {df.tail()}\n\n")
+
+    player_list = df.iloc[1:, 0].astype(str).tolist()
+    print(f"{tag} player list heading to workitems: 🍑 {player_list} 🍑\n")
+    print(f"{tag} Number of players from file: {len(player_list)}\n")
+    return player_list
+
+
+def _download(fileName):
+    """Download the file from Azure Storage via Azure Function api call"""
+    ext = fileName.split(".")[-1]
+    if not ext == "csv":
+        raise ValueError("Only file types .csv is allowed")
+
+    print(f"{tag} downloading {fileName} to {DOWNLOAD}...")
+    # call the Function api
+    try:
+        data = {"fileName": fileName}
+        json_data = json.dumps(data)
+        print(f"{tag} json_data {json_data} ...")
+
+        response = requests.post(url=DOWNLOAD, data=json_data)
+        print(
+            f"{tag} response status: {response.status_code} reason: {response.reason} headers: {response.headers}"
+        )
+        if response.status_code == 200:
+            downloaded = response.text
+        else:
+            # raise ValueError("👿 Download failed")
+            return
+
+        print(
+            f"\n{tag} Azure Storage file downloaded: 😡 😡 {len(downloaded)} bytes 😡\n"
+        )
+
+        with open(CSV_OUTPUT_FILE_PATH, "wb") as f:
+            f.write(downloaded.encode())
+        df = pd.read_csv(CSV_OUTPUT_FILE_PATH, header=None)
+
+        return df
+
+    except Exception as e:
+        print(f"{tag} ERROR downloading file: {fileName}: {e}")
+        raise ValueError(f"File download failed: {e}")
+
+
+def create_work_items(names: list):
+    """Send names to work items for the next robot"""
+    print(f"{tag} sending {len(names)} names to workitems")
+    count = 0
+    for name in names:
+        if name == "nan":
+            continue
+        workitems.outputs.create({"name": name})
+        print(f"{tag} work item created: {name}.")
+        count = count + 1
+
+    print(f"{tag} {count} workitems created. Work completed, Boss!")
+
+
+@task
+def name_handler_task():
+    """Process all the produced input Work Items from the previous step."""
+    print(f"\n\n{tag2}... start processing names from workitems ...")
+
+    count = 0
+    for item in workitems.inputs:
+        try:
+            name = item.payload["name"]
+            print(f"{tag2} ... Processing name: {name}")
+            item.done()
+            count = count + 1
+        except Exception as e:
+            print(f"{tag2} Error processing name: {item.payload}")
+            item.fail(
+                "APPLICATION",
+                code="400",
+                message="Could not process a name",
+            )
+    # Tell someone!
+    print(f"\n\n{tag2} ... workitems processed; calling webhook: {WEBHOOK}")
+    data = {
+        "robotName": "NameHandlerRobot",
+        "processed": count,
+        "robotDate": datetime.now().ctime(),
+        "emoji": "🍎",
+    }
+    json_object = json.dumps(data)
+    # send data to webhook
+    res = requests.post(
+        url=WEBHOOK,
+        data=json_object,
     )
-    blob_service_client = BlobServiceClient(account_url=f"https://{account_name}.blob.core.windows.net", 
-                                            credential=storage_key)
-    blob_client = blob_service_client.get_blob_client(container=container_name, blob=blob_name)
+    print(
+        f"\n{tag2} ✅ ✅ webhook response, 🥬 status_code: {res.status_code} - {res.text}\n\n "
+    )
 
-    downloaded = blob_client.download_blob()
-    with open(OUTPUT_FILE_PATH, "wb") as f:
-        download_stream = downloaded
-        f.write(download_stream.readall())
-    print(f"🍐🍐🍐 Azure Storage file downloaded: {len(downloaded)} bytes")
 
-    # check out the downloaded file
-    df = pd.read_excel(OUTPUT_FILE_PATH)
-    print(f"🍐🍐🍐 info: {df.info()}\n")
-    print(f"🍐🍐🍐 describe: {df.describe()}\n")
-    print(f"🍐🍐🍐 head: {df.head()}\n")
-    print(f"🍐🍐🍐 tail: {df.tail()}\n\n")
-
-OUTPUT_FILE_PATH = "output/players.xlsx"
+tag2 = "🍎 🍎 ReconBaseRobot#2 🍎 "

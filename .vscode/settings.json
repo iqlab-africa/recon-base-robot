@@ -5,9 +5,18 @@
     "python.terminal.activateEnvironment": false,
     "cSpell.words": [
         "accountname",
+        "astype",
+        "creds",
+        "footbal",
+        "iloc",
         "keyvault",
+        "numpy",
         "PYTHONPATH",
+        "readall",
         "robocorp",
-        "storagekey"
+        "rpaframework",
+        "storagekey",
+        "truststore",
+        "workitems"
     ]
 }
