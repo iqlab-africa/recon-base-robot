@@ -29,10 +29,10 @@ tag = "🍐🍐 PlayerCollectorRobot 🍐 "
 def player_collector_task():
     """Demonstrate connection to Azure Functions and Postgres database. Read the code to see the different api's"""
     print(f"\n\n{tag} PlayerCollectorRobot starting ...")
-    ping()
-    add_user()
-    get_users()
-    download_files_from_azure_storage()
+    # ping()
+    # add_user()
+    # get_users()
+    download_player_file_from_azure()
     #
     send_webhook(robotName="PlayerCollectorRobot", processed=1, emoji="🥬")
     print(f"\n\n{tag} Work is done, Jackson!  🥬 \n\n")
@@ -75,7 +75,7 @@ def get_users():
     except Exception as e:
         print(f"😈 Error listing users: 😈 {e} 😈")
 
-def download_files_from_azure_storage():
+def download_player_file_from_azure():
     """Download files from Azure Storage account. download both excel and csv versions and create dataFrames"""
 
     player_list = []

@@ -2879,3 +2879,416 @@
 {"when":1724002659,"controller":"rcc.robocorpcode","event":"robot exit","detail":"From rcc \"v17.28.4\" (controller: \"RobocorpCode\") point of view, \"actual main robot run\" was SUCCESS.","comment":"rcc point of view"}
 {"when":1724002659,"controller":"rcc.robocorpcode","event":"processes","detail":"final","comment":"count: 0"}
 {"when":1724002660,"controller":"rcc.robocorpcode","event":"stop","detail":"robot","comment":"done"}
+{"when":1724005380,"controller":"rcc.robocorpcode","event":"start task","detail":"name=PlayerCollectorTask from=/Users/aubreymalabie/Work/iqlabs/recon-base-robot/robot.yaml","comment":"at task environment setup"}
+{"when":1724005380,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 00/15 v17.28.4 0.058s Context: \"Aubrey Malabie\" \u003caubreymalabie@Aubreys-MacBook-Pro.local\u003e [darwin_amd64/ProductName: macOS; ProductVersion: 14.6.1; BuildVersion: 23G93]."}
+{"when":1724005380,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 01/15 v17.28.4 0.005s Fresh [shared mode] holotree environment 5751fe1f-e89d-55c5-a85b-0b2718d1872a. (parent/pid: 84443/84444)"}
+{"when":1724005380,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 02/15 v17.28.4 0.015s Holotree blueprint is \"fe9166a8e5e3c709\" [darwin_amd64 with 9 workers on 10 CPUs from \"conda.yaml\"]."}
+{"when":1724005380,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 14/15 v17.28.4 0.310s Restore space from library [with 9 workers on 10 CPUs; with compression: true]."}
+{"when":1724005381,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 15/15 v17.28.4 0.761s Fresh holotree done [with 9 workers on 10 CPUs]."}
+{"when":1724005381,"controller":"rcc.robocorpcode","event":"start","detail":"robot","comment":"started"}
+{"when":1724005381,"controller":"rcc.robocorpcode","event":"run","detail":"robot","comment":"task run"}
+{"when":1724005382,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[84513:python3.10]"}
+{"when":1724005396,"controller":"rcc.robocorpcode","event":"robot exit","detail":"From rcc \"v17.28.4\" (controller: \"RobocorpCode\") point of view, \"actual main robot run\" was SUCCESS.","comment":"rcc point of view"}
+{"when":1724005396,"controller":"rcc.robocorpcode","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1724005398,"controller":"rcc.robocorpcode","event":"stop","detail":"robot","comment":"done"}
+{"when":1724005757,"controller":"rcc.robocorpcode","event":"start task","detail":"name=PlayerCollectorTask from=/Users/aubreymalabie/Work/iqlabs/recon-base-robot/robot.yaml","comment":"at task environment setup"}
+{"when":1724005757,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 00/15 v17.28.4 0.070s Context: \"Aubrey Malabie\" \u003caubreymalabie@Aubreys-MacBook-Pro.local\u003e [darwin_amd64/ProductName: macOS; ProductVersion: 14.6.1; BuildVersion: 23G93]."}
+{"when":1724005757,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 01/15 v17.28.4 0.007s Fresh [shared mode] holotree environment 5751fe1f-e89d-55c5-a85b-0b2718d1872a. (parent/pid: 90802/90803)"}
+{"when":1724005757,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 02/15 v17.28.4 0.009s Holotree blueprint is \"fe9166a8e5e3c709\" [darwin_amd64 with 9 workers on 10 CPUs from \"conda.yaml\"]."}
+{"when":1724005758,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 14/15 v17.28.4 0.297s Restore space from library [with 9 workers on 10 CPUs; with compression: true]."}
+{"when":1724005758,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 15/15 v17.28.4 0.710s Fresh holotree done [with 9 workers on 10 CPUs]."}
+{"when":1724005758,"controller":"rcc.robocorpcode","event":"start","detail":"robot","comment":"started"}
+{"when":1724005758,"controller":"rcc.robocorpcode","event":"run","detail":"robot","comment":"task run"}
+{"when":1724005759,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[90839:python3.10]"}
+{"when":1724005780,"controller":"rcc.robocorpcode","event":"robot exit","detail":"From rcc \"v17.28.4\" (controller: \"RobocorpCode\") point of view, \"actual main robot run\" was SUCCESS.","comment":"rcc point of view"}
+{"when":1724005780,"controller":"rcc.robocorpcode","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1724005781,"controller":"rcc.robocorpcode","event":"stop","detail":"robot","comment":"done"}
+{"when":1724005923,"controller":"rcc.robocorpcode","event":"start task","detail":"name=PlayerCollectorTask from=/Users/aubreymalabie/Work/iqlabs/recon-base-robot/robot.yaml","comment":"at task environment setup"}
+{"when":1724005923,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 00/15 v17.28.4 0.088s Context: \"Aubrey Malabie\" \u003caubreymalabie@Aubreys-MacBook-Pro.local\u003e [darwin_amd64/ProductName: macOS; ProductVersion: 14.6.1; BuildVersion: 23G93]."}
+{"when":1724005923,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 01/15 v17.28.4 0.006s Fresh [shared mode] holotree environment 5751fe1f-e89d-55c5-a85b-0b2718d1872a. (parent/pid: 93138/93141)"}
+{"when":1724005923,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 02/15 v17.28.4 0.008s Holotree blueprint is \"fe9166a8e5e3c709\" [darwin_amd64 with 9 workers on 10 CPUs from \"conda.yaml\"]."}
+{"when":1724005923,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 14/15 v17.28.4 0.298s Restore space from library [with 9 workers on 10 CPUs; with compression: true]."}
+{"when":1724005924,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 15/15 v17.28.4 0.716s Fresh holotree done [with 9 workers on 10 CPUs]."}
+{"when":1724005924,"controller":"rcc.robocorpcode","event":"start","detail":"robot","comment":"started"}
+{"when":1724005924,"controller":"rcc.robocorpcode","event":"run","detail":"robot","comment":"task run"}
+{"when":1724005925,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[93154:python3.10]"}
+{"when":1724005931,"controller":"rcc.robocorpcode","event":"robot exit","detail":"From rcc \"v17.28.4\" (controller: \"RobocorpCode\") point of view, \"actual main robot run\" was SUCCESS.","comment":"rcc point of view"}
+{"when":1724005931,"controller":"rcc.robocorpcode","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1724005933,"controller":"rcc.robocorpcode","event":"stop","detail":"robot","comment":"done"}
+{"when":1724005966,"controller":"rcc.robocorpcode","event":"start task","detail":"name=PlayerCollectorTask from=/Users/aubreymalabie/Work/iqlabs/recon-base-robot/robot.yaml","comment":"at task environment setup"}
+{"when":1724005966,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 00/15 v17.28.4 0.071s Context: \"Aubrey Malabie\" \u003caubreymalabie@Aubreys-MacBook-Pro.local\u003e [darwin_amd64/ProductName: macOS; ProductVersion: 14.6.1; BuildVersion: 23G93]."}
+{"when":1724005966,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 01/15 v17.28.4 0.006s Fresh [shared mode] holotree environment 5751fe1f-e89d-55c5-a85b-0b2718d1872a. (parent/pid: 93719/93720)"}
+{"when":1724005966,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 02/15 v17.28.4 0.008s Holotree blueprint is \"fe9166a8e5e3c709\" [darwin_amd64 with 9 workers on 10 CPUs from \"conda.yaml\"]."}
+{"when":1724005966,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 14/15 v17.28.4 0.291s Restore space from library [with 9 workers on 10 CPUs; with compression: true]."}
+{"when":1724005967,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 15/15 v17.28.4 0.701s Fresh holotree done [with 9 workers on 10 CPUs]."}
+{"when":1724005967,"controller":"rcc.robocorpcode","event":"start","detail":"robot","comment":"started"}
+{"when":1724005967,"controller":"rcc.robocorpcode","event":"run","detail":"robot","comment":"task run"}
+{"when":1724005967,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[93747:python3.10]"}
+{"when":1724005974,"controller":"rcc.robocorpcode","event":"robot exit","detail":"From rcc \"v17.28.4\" (controller: \"RobocorpCode\") point of view, \"actual main robot run\" was SUCCESS.","comment":"rcc point of view"}
+{"when":1724005974,"controller":"rcc.robocorpcode","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1724005975,"controller":"rcc.robocorpcode","event":"stop","detail":"robot","comment":"done"}
+{"when":1724006148,"controller":"rcc.robocorpcode","event":"start task","detail":"name=PlayerCollectorTask from=robot.yaml","comment":"at task environment setup"}
+{"when":1724006148,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 00/15 v17.28.4 0.061s Context: \"Aubrey Malabie\" \u003caubreymalabie@Aubreys-MacBook-Pro.local\u003e [darwin_amd64/ProductName: macOS; ProductVersion: 14.6.1; BuildVersion: 23G93]."}
+{"when":1724006148,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 01/15 v17.28.4 0.005s Fresh [shared mode] holotree environment 5751fe1f-e89d-55c5-a85b-0b2718d1872a. (parent/pid: 96157/96158)"}
+{"when":1724006148,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 02/15 v17.28.4 0.007s Holotree blueprint is \"fe9166a8e5e3c709\" [darwin_amd64 with 9 workers on 10 CPUs from \"conda.yaml\"]."}
+{"when":1724006148,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 14/15 v17.28.4 0.290s Restore space from library [with 9 workers on 10 CPUs; with compression: true]."}
+{"when":1724006149,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 15/15 v17.28.4 0.691s Fresh holotree done [with 9 workers on 10 CPUs]."}
+{"when":1724006149,"controller":"rcc.robocorpcode","event":"start","detail":"robot","comment":"started"}
+{"when":1724006149,"controller":"rcc.robocorpcode","event":"run","detail":"robot","comment":"task run"}
+{"when":1724006150,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[96172:python3.10]"}
+{"when":1724006156,"controller":"rcc.robocorpcode","event":"robot exit","detail":"From rcc \"v17.28.4\" (controller: \"RobocorpCode\") point of view, \"actual main robot run\" was SUCCESS.","comment":"rcc point of view"}
+{"when":1724006156,"controller":"rcc.robocorpcode","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1724006158,"controller":"rcc.robocorpcode","event":"stop","detail":"robot","comment":"done"}
+{"when":1724006210,"controller":"rcc.robocorpcode","event":"start task","detail":"name=PlayerCollectorTask from=robot.yaml","comment":"at task environment setup"}
+{"when":1724006210,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 00/15 v17.28.4 0.064s Context: \"Aubrey Malabie\" \u003caubreymalabie@Aubreys-MacBook-Pro.local\u003e [darwin_amd64/ProductName: macOS; ProductVersion: 14.6.1; BuildVersion: 23G93]."}
+{"when":1724006210,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 01/15 v17.28.4 0.005s Fresh [shared mode] holotree environment 5751fe1f-e89d-55c5-a85b-0b2718d1872a. (parent/pid: 96978/96988)"}
+{"when":1724006210,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 02/15 v17.28.4 0.006s Holotree blueprint is \"fe9166a8e5e3c709\" [darwin_amd64 with 9 workers on 10 CPUs from \"conda.yaml\"]."}
+{"when":1724006210,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 14/15 v17.28.4 0.308s Restore space from library [with 9 workers on 10 CPUs; with compression: true]."}
+{"when":1724006213,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 15/15 v17.28.4 3.355s Fresh holotree done [with 9 workers on 10 CPUs]."}
+{"when":1724006213,"controller":"rcc.robocorpcode","event":"start","detail":"robot","comment":"started"}
+{"when":1724006213,"controller":"rcc.robocorpcode","event":"run","detail":"robot","comment":"task run"}
+{"when":1724006214,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[97038:python3.10]"}
+{"when":1724006273,"controller":"rcc.robocorpcode","event":"robot exit","detail":"From rcc \"v17.28.4\" (controller: \"RobocorpCode\") point of view, \"actual main robot run\" was SUCCESS.","comment":"rcc point of view"}
+{"when":1724006273,"controller":"rcc.robocorpcode","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1724006275,"controller":"rcc.robocorpcode","event":"stop","detail":"robot","comment":"done"}
+{"when":1724006275,"controller":"rcc.robocorpcode","event":"start task","detail":"name=PlayerHandlerTask from=/Users/aubreymalabie/Work/iqlabs/recon-base-robot/robot.yaml","comment":"at task environment setup"}
+{"when":1724006275,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 00/15 v17.28.4 0.057s Context: \"Aubrey Malabie\" \u003caubreymalabie@Aubreys-MacBook-Pro.local\u003e [darwin_amd64/ProductName: macOS; ProductVersion: 14.6.1; BuildVersion: 23G93]."}
+{"when":1724006275,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 01/15 v17.28.4 0.006s Fresh [shared mode] holotree environment 5751fe1f-e89d-55c5-a85b-0b2718d1872a. (parent/pid: 98370/98378)"}
+{"when":1724006275,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 02/15 v17.28.4 0.007s Holotree blueprint is \"fe9166a8e5e3c709\" [darwin_amd64 with 9 workers on 10 CPUs from \"conda.yaml\"]."}
+{"when":1724006276,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 14/15 v17.28.4 0.561s Restore space from library [with 9 workers on 10 CPUs; with compression: true]."}
+{"when":1724006276,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 15/15 v17.28.4 0.669s Fresh holotree done [with 9 workers on 10 CPUs]."}
+{"when":1724006276,"controller":"rcc.robocorpcode","event":"start","detail":"robot","comment":"started"}
+{"when":1724006276,"controller":"rcc.robocorpcode","event":"run","detail":"robot","comment":"task run"}
+{"when":1724006277,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[98408:python3.10]"}
+{"when":1724006281,"controller":"rcc.robocorpcode","event":"robot exit","detail":"From rcc \"v17.28.4\" (controller: \"RobocorpCode\") point of view, \"actual main robot run\" was SUCCESS.","comment":"rcc point of view"}
+{"when":1724006281,"controller":"rcc.robocorpcode","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1724006282,"controller":"rcc.robocorpcode","event":"stop","detail":"robot","comment":"done"}
+{"when":1724006446,"controller":"rcc.robocorpcode","event":"start task","detail":"name=PlayerHandlerTask from=robot.yaml","comment":"at task environment setup"}
+{"when":1724006446,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 00/15 v17.28.4 0.085s Context: \"Aubrey Malabie\" \u003caubreymalabie@Aubreys-MacBook-Pro.local\u003e [darwin_amd64/ProductName: macOS; ProductVersion: 14.6.1; BuildVersion: 23G93]."}
+{"when":1724006446,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 01/15 v17.28.4 0.006s Fresh [shared mode] holotree environment 5751fe1f-e89d-55c5-a85b-0b2718d1872a. (parent/pid: 1123/1124)"}
+{"when":1724006446,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 02/15 v17.28.4 0.017s Holotree blueprint is \"fe9166a8e5e3c709\" [darwin_amd64 with 9 workers on 10 CPUs from \"conda.yaml\"]."}
+{"when":1724006447,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 14/15 v17.28.4 0.286s Restore space from library [with 9 workers on 10 CPUs; with compression: true]."}
+{"when":1724006447,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 15/15 v17.28.4 0.692s Fresh holotree done [with 9 workers on 10 CPUs]."}
+{"when":1724006447,"controller":"rcc.robocorpcode","event":"start","detail":"robot","comment":"started"}
+{"when":1724006447,"controller":"rcc.robocorpcode","event":"run","detail":"robot","comment":"task run"}
+{"when":1724006448,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[1146:python3.10]"}
+{"when":1724006452,"controller":"rcc.robocorpcode","event":"robot exit","detail":"From rcc \"v17.28.4\" (controller: \"RobocorpCode\") point of view, \"actual main robot run\" was SUCCESS.","comment":"rcc point of view"}
+{"when":1724006452,"controller":"rcc.robocorpcode","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1724006453,"controller":"rcc.robocorpcode","event":"stop","detail":"robot","comment":"done"}
+{"when":1724006936,"controller":"rcc.robocorpcode","event":"start task","detail":"name=PlayerCollectorTask from=robot.yaml","comment":"at task environment setup"}
+{"when":1724006936,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 00/15 v17.28.4 0.072s Context: \"Aubrey Malabie\" \u003caubreymalabie@Aubreys-MacBook-Pro.local\u003e [darwin_amd64/ProductName: macOS; ProductVersion: 14.6.1; BuildVersion: 23G93]."}
+{"when":1724006936,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 01/15 v17.28.4 0.007s Fresh [shared mode] holotree environment 5751fe1f-e89d-55c5-a85b-0b2718d1872a. (parent/pid: 7643/7644)"}
+{"when":1724006936,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 02/15 v17.28.4 0.008s Holotree blueprint is \"fe9166a8e5e3c709\" [darwin_amd64 with 9 workers on 10 CPUs from \"conda.yaml\"]."}
+{"when":1724006937,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 14/15 v17.28.4 0.416s Restore space from library [with 9 workers on 10 CPUs; with compression: true]."}
+{"when":1724006938,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 15/15 v17.28.4 0.769s Fresh holotree done [with 9 workers on 10 CPUs]."}
+{"when":1724006938,"controller":"rcc.robocorpcode","event":"start","detail":"robot","comment":"started"}
+{"when":1724006938,"controller":"rcc.robocorpcode","event":"run","detail":"robot","comment":"task run"}
+{"when":1724006938,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[7670:python3.10]"}
+{"when":1724006969,"controller":"rcc.robocorpcode","event":"robot exit","detail":"From rcc \"v17.28.4\" (controller: \"RobocorpCode\") point of view, \"actual main robot run\" was SUCCESS.","comment":"rcc point of view"}
+{"when":1724006969,"controller":"rcc.robocorpcode","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1724006970,"controller":"rcc.robocorpcode","event":"stop","detail":"robot","comment":"done"}
+{"when":1724006971,"controller":"rcc.robocorpcode","event":"start task","detail":"name=PlayerHandlerTask from=robot.yaml","comment":"at task environment setup"}
+{"when":1724006971,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 00/15 v17.28.4 0.072s Context: \"Aubrey Malabie\" \u003caubreymalabie@Aubreys-MacBook-Pro.local\u003e [darwin_amd64/ProductName: macOS; ProductVersion: 14.6.1; BuildVersion: 23G93]."}
+{"when":1724006971,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 01/15 v17.28.4 0.009s Fresh [shared mode] holotree environment 5751fe1f-e89d-55c5-a85b-0b2718d1872a. (parent/pid: 8115/8116)"}
+{"when":1724006971,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 02/15 v17.28.4 0.008s Holotree blueprint is \"fe9166a8e5e3c709\" [darwin_amd64 with 9 workers on 10 CPUs from \"conda.yaml\"]."}
+{"when":1724006971,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 14/15 v17.28.4 0.500s Restore space from library [with 9 workers on 10 CPUs; with compression: true]."}
+{"when":1724006972,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 15/15 v17.28.4 0.816s Fresh holotree done [with 9 workers on 10 CPUs]."}
+{"when":1724006972,"controller":"rcc.robocorpcode","event":"start","detail":"robot","comment":"started"}
+{"when":1724006972,"controller":"rcc.robocorpcode","event":"run","detail":"robot","comment":"task run"}
+{"when":1724006973,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[8130:python3.10]"}
+{"when":1724006977,"controller":"rcc.robocorpcode","event":"robot exit","detail":"From rcc \"v17.28.4\" (controller: \"RobocorpCode\") point of view, \"actual main robot run\" was SUCCESS.","comment":"rcc point of view"}
+{"when":1724006977,"controller":"rcc.robocorpcode","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1724006978,"controller":"rcc.robocorpcode","event":"stop","detail":"robot","comment":"done"}
+{"when":1724007124,"controller":"rcc.robocorpcode","event":"start task","detail":"name=PlayerCollectorTask from=robot.yaml","comment":"at task environment setup"}
+{"when":1724007124,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 00/15 v17.28.4 0.079s Context: \"Aubrey Malabie\" \u003caubreymalabie@Aubreys-MacBook-Pro.local\u003e [darwin_amd64/ProductName: macOS; ProductVersion: 14.6.1; BuildVersion: 23G93]."}
+{"when":1724007124,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 01/15 v17.28.4 0.006s Fresh [shared mode] holotree environment 5751fe1f-e89d-55c5-a85b-0b2718d1872a. (parent/pid: 10145/10146)"}
+{"when":1724007124,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 02/15 v17.28.4 0.009s Holotree blueprint is \"fe9166a8e5e3c709\" [darwin_amd64 with 9 workers on 10 CPUs from \"conda.yaml\"]."}
+{"when":1724007125,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 14/15 v17.28.4 0.317s Restore space from library [with 9 workers on 10 CPUs; with compression: true]."}
+{"when":1724007125,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 15/15 v17.28.4 0.717s Fresh holotree done [with 9 workers on 10 CPUs]."}
+{"when":1724007125,"controller":"rcc.robocorpcode","event":"start","detail":"robot","comment":"started"}
+{"when":1724007125,"controller":"rcc.robocorpcode","event":"run","detail":"robot","comment":"task run"}
+{"when":1724007125,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[10174:rcc]"}
+{"when":1724007126,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 1 to 1 ... map[10174:python3.10]"}
+{"when":1724007133,"controller":"rcc.robocorpcode","event":"robot exit","detail":"From rcc \"v17.28.4\" (controller: \"RobocorpCode\") point of view, \"actual main robot run\" was SUCCESS.","comment":"rcc point of view"}
+{"when":1724007133,"controller":"rcc.robocorpcode","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1724007134,"controller":"rcc.robocorpcode","event":"stop","detail":"robot","comment":"done"}
+{"when":1724007170,"controller":"rcc.robocorpcode","event":"start task","detail":"name=PlayerCollectorTask from=robot.yaml","comment":"at task environment setup"}
+{"when":1724007170,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 00/15 v17.28.4 0.070s Context: \"Aubrey Malabie\" \u003caubreymalabie@Aubreys-MacBook-Pro.local\u003e [darwin_amd64/ProductName: macOS; ProductVersion: 14.6.1; BuildVersion: 23G93]."}
+{"when":1724007170,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 01/15 v17.28.4 0.006s Fresh [shared mode] holotree environment 5751fe1f-e89d-55c5-a85b-0b2718d1872a. (parent/pid: 10767/10768)"}
+{"when":1724007170,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 02/15 v17.28.4 0.020s Holotree blueprint is \"fe9166a8e5e3c709\" [darwin_amd64 with 9 workers on 10 CPUs from \"conda.yaml\"]."}
+{"when":1724007170,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 14/15 v17.28.4 0.291s Restore space from library [with 9 workers on 10 CPUs; with compression: true]."}
+{"when":1724007171,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 15/15 v17.28.4 0.780s Fresh holotree done [with 9 workers on 10 CPUs]."}
+{"when":1724007171,"controller":"rcc.robocorpcode","event":"start","detail":"robot","comment":"started"}
+{"when":1724007171,"controller":"rcc.robocorpcode","event":"run","detail":"robot","comment":"task run"}
+{"when":1724007172,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[10793:python3.10]"}
+{"when":1724007179,"controller":"rcc.robocorpcode","event":"robot exit","detail":"From rcc \"v17.28.4\" (controller: \"RobocorpCode\") point of view, \"actual main robot run\" was SUCCESS.","comment":"rcc point of view"}
+{"when":1724007179,"controller":"rcc.robocorpcode","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1724007180,"controller":"rcc.robocorpcode","event":"stop","detail":"robot","comment":"done"}
+{"when":1724007774,"controller":"rcc.robocorpcode","event":"start task","detail":"name=PlayerHandlerTask from=/Users/aubreymalabie/Work/iqlabs/recon-base-robot/robot.yaml","comment":"at task environment setup"}
+{"when":1724007774,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 00/15 v17.28.4 0.066s Context: \"Aubrey Malabie\" \u003caubreymalabie@Aubreys-MacBook-Pro.local\u003e [darwin_amd64/ProductName: macOS; ProductVersion: 14.6.1; BuildVersion: 23G93]."}
+{"when":1724007774,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 01/15 v17.28.4 0.006s Fresh [shared mode] holotree environment 5751fe1f-e89d-55c5-a85b-0b2718d1872a. (parent/pid: 18734/18735)"}
+{"when":1724007774,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 02/15 v17.28.4 0.007s Holotree blueprint is \"fe9166a8e5e3c709\" [darwin_amd64 with 9 workers on 10 CPUs from \"conda.yaml\"]."}
+{"when":1724007775,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 14/15 v17.28.4 0.304s Restore space from library [with 9 workers on 10 CPUs; with compression: true]."}
+{"when":1724007775,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 15/15 v17.28.4 0.772s Fresh holotree done [with 9 workers on 10 CPUs]."}
+{"when":1724007775,"controller":"rcc.robocorpcode","event":"start","detail":"robot","comment":"started"}
+{"when":1724007775,"controller":"rcc.robocorpcode","event":"run","detail":"robot","comment":"task run"}
+{"when":1724007776,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[18758:python3.10]"}
+{"when":1724007806,"controller":"rcc.robocorpcode","event":"robot exit","detail":"From rcc \"v17.28.4\" (controller: \"RobocorpCode\") point of view, \"actual main robot run\" was SUCCESS.","comment":"rcc point of view"}
+{"when":1724007806,"controller":"rcc.robocorpcode","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1724007807,"controller":"rcc.robocorpcode","event":"stop","detail":"robot","comment":"done"}
+{"when":1724009229,"controller":"rcc.robocorpcode","event":"start task","detail":"name=PlayerCollectorTask from=robot.yaml","comment":"at task environment setup"}
+{"when":1724009229,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 00/15 v17.28.4 0.069s Context: \"Aubrey Malabie\" \u003caubreymalabie@Aubreys-MacBook-Pro.local\u003e [darwin_amd64/ProductName: macOS; ProductVersion: 14.6.1; BuildVersion: 23G93]."}
+{"when":1724009229,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 01/15 v17.28.4 0.005s Fresh [shared mode] holotree environment 5751fe1f-e89d-55c5-a85b-0b2718d1872a. (parent/pid: 38142/38143)"}
+{"when":1724009229,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 02/15 v17.28.4 0.006s Holotree blueprint is \"fe9166a8e5e3c709\" [darwin_amd64 with 9 workers on 10 CPUs from \"conda.yaml\"]."}
+{"when":1724009229,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 14/15 v17.28.4 0.290s Restore space from library [with 9 workers on 10 CPUs; with compression: true]."}
+{"when":1724009230,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 15/15 v17.28.4 0.726s Fresh holotree done [with 9 workers on 10 CPUs]."}
+{"when":1724009230,"controller":"rcc.robocorpcode","event":"start","detail":"robot","comment":"started"}
+{"when":1724009230,"controller":"rcc.robocorpcode","event":"run","detail":"robot","comment":"task run"}
+{"when":1724009230,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[38172:python3.10]"}
+{"when":1724009252,"controller":"rcc.robocorpcode","event":"robot exit","detail":"From rcc \"v17.28.4\" (controller: \"RobocorpCode\") point of view, \"actual main robot run\" was SUCCESS.","comment":"rcc point of view"}
+{"when":1724009252,"controller":"rcc.robocorpcode","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1724009253,"controller":"rcc.robocorpcode","event":"stop","detail":"robot","comment":"done"}
+{"when":1724009254,"controller":"rcc.robocorpcode","event":"start task","detail":"name=PlayerHandlerTask from=robot.yaml","comment":"at task environment setup"}
+{"when":1724009254,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 00/15 v17.28.4 0.047s Context: \"Aubrey Malabie\" \u003caubreymalabie@Aubreys-MacBook-Pro.local\u003e [darwin_amd64/ProductName: macOS; ProductVersion: 14.6.1; BuildVersion: 23G93]."}
+{"when":1724009254,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 01/15 v17.28.4 0.005s Fresh [shared mode] holotree environment 5751fe1f-e89d-55c5-a85b-0b2718d1872a. (parent/pid: 38142/38508)"}
+{"when":1724009254,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 02/15 v17.28.4 0.008s Holotree blueprint is \"fe9166a8e5e3c709\" [darwin_amd64 with 9 workers on 10 CPUs from \"conda.yaml\"]."}
+{"when":1724009254,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 14/15 v17.28.4 0.277s Restore space from library [with 9 workers on 10 CPUs; with compression: true]."}
+{"when":1724009255,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 15/15 v17.28.4 0.657s Fresh holotree done [with 9 workers on 10 CPUs]."}
+{"when":1724009255,"controller":"rcc.robocorpcode","event":"start","detail":"robot","comment":"started"}
+{"when":1724009255,"controller":"rcc.robocorpcode","event":"run","detail":"robot","comment":"task run"}
+{"when":1724009256,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[38521:python3.10]"}
+{"when":1724009259,"controller":"rcc.robocorpcode","event":"robot exit","detail":"From rcc \"v17.28.4\" (controller: \"RobocorpCode\") point of view, \"actual main robot run\" was SUCCESS.","comment":"rcc point of view"}
+{"when":1724009259,"controller":"rcc.robocorpcode","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1724009261,"controller":"rcc.robocorpcode","event":"stop","detail":"robot","comment":"done"}
+{"when":1724009261,"controller":"rcc.robocorpcode","event":"start task","detail":"name=BestPlayerTask from=robot.yaml","comment":"at task environment setup"}
+{"when":1724009261,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 00/15 v17.28.4 0.049s Context: \"Aubrey Malabie\" \u003caubreymalabie@Aubreys-MacBook-Pro.local\u003e [darwin_amd64/ProductName: macOS; ProductVersion: 14.6.1; BuildVersion: 23G93]."}
+{"when":1724009261,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 01/15 v17.28.4 0.006s Fresh [shared mode] holotree environment 5751fe1f-e89d-55c5-a85b-0b2718d1872a. (parent/pid: 38142/38610)"}
+{"when":1724009261,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 02/15 v17.28.4 0.009s Holotree blueprint is \"fe9166a8e5e3c709\" [darwin_amd64 with 9 workers on 10 CPUs from \"conda.yaml\"]."}
+{"when":1724009261,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 14/15 v17.28.4 0.307s Restore space from library [with 9 workers on 10 CPUs; with compression: true]."}
+{"when":1724009262,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 15/15 v17.28.4 0.770s Fresh holotree done [with 9 workers on 10 CPUs]."}
+{"when":1724009262,"controller":"rcc.robocorpcode","event":"start","detail":"robot","comment":"started"}
+{"when":1724009262,"controller":"rcc.robocorpcode","event":"run","detail":"robot","comment":"task run"}
+{"when":1724009262,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[38633:rcc]"}
+{"when":1724009263,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 1 to 1 ... map[38633:python3.10]"}
+{"when":1724009268,"controller":"rcc.robocorpcode","event":"robot exit","detail":"From rcc \"v17.28.4\" (controller: \"RobocorpCode\") point of view, \"actual main robot run\" was SUCCESS.","comment":"rcc point of view"}
+{"when":1724009268,"controller":"rcc.robocorpcode","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1724009269,"controller":"rcc.robocorpcode","event":"stop","detail":"robot","comment":"done"}
+{"when":1724009913,"controller":"rcc.robocorpcode","event":"start task","detail":"name=PlayerCollectorTask from=robot.yaml","comment":"at task environment setup"}
+{"when":1724009913,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 00/15 v17.28.4 0.101s Context: \"Aubrey Malabie\" \u003caubreymalabie@Aubreys-MacBook-Pro.local\u003e [darwin_amd64/ProductName: macOS; ProductVersion: 14.6.1; BuildVersion: 23G93]."}
+{"when":1724009913,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 01/15 v17.28.4 0.014s Fresh [shared mode] holotree environment 5751fe1f-e89d-55c5-a85b-0b2718d1872a. (parent/pid: 47323/47324)"}
+{"when":1724009913,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 02/15 v17.28.4 0.013s Holotree blueprint is \"fe9166a8e5e3c709\" [darwin_amd64 with 9 workers on 10 CPUs from \"conda.yaml\"]."}
+{"when":1724009914,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 14/15 v17.28.4 0.372s Restore space from library [with 9 workers on 10 CPUs; with compression: true]."}
+{"when":1724009915,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 15/15 v17.28.4 0.779s Fresh holotree done [with 9 workers on 10 CPUs]."}
+{"when":1724009915,"controller":"rcc.robocorpcode","event":"start","detail":"robot","comment":"started"}
+{"when":1724009915,"controller":"rcc.robocorpcode","event":"run","detail":"robot","comment":"task run"}
+{"when":1724009915,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[47344:python3.10]"}
+{"when":1724009937,"controller":"rcc.robocorpcode","event":"robot exit","detail":"From rcc \"v17.28.4\" (controller: \"RobocorpCode\") point of view, \"actual main robot run\" was SUCCESS.","comment":"rcc point of view"}
+{"when":1724009937,"controller":"rcc.robocorpcode","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1724009939,"controller":"rcc.robocorpcode","event":"stop","detail":"robot","comment":"done"}
+{"when":1724009939,"controller":"rcc.robocorpcode","event":"start task","detail":"name=PlayerHandlerTask from=robot.yaml","comment":"at task environment setup"}
+{"when":1724009939,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 00/15 v17.28.4 0.042s Context: \"Aubrey Malabie\" \u003caubreymalabie@Aubreys-MacBook-Pro.local\u003e [darwin_amd64/ProductName: macOS; ProductVersion: 14.6.1; BuildVersion: 23G93]."}
+{"when":1724009939,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 01/15 v17.28.4 0.006s Fresh [shared mode] holotree environment 5751fe1f-e89d-55c5-a85b-0b2718d1872a. (parent/pid: 47323/47669)"}
+{"when":1724009939,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 02/15 v17.28.4 0.007s Holotree blueprint is \"fe9166a8e5e3c709\" [darwin_amd64 with 9 workers on 10 CPUs from \"conda.yaml\"]."}
+{"when":1724009939,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 14/15 v17.28.4 0.300s Restore space from library [with 9 workers on 10 CPUs; with compression: true]."}
+{"when":1724009940,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 15/15 v17.28.4 0.673s Fresh holotree done [with 9 workers on 10 CPUs]."}
+{"when":1724009940,"controller":"rcc.robocorpcode","event":"start","detail":"robot","comment":"started"}
+{"when":1724009940,"controller":"rcc.robocorpcode","event":"run","detail":"robot","comment":"task run"}
+{"when":1724009940,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[47700:rcc]"}
+{"when":1724009940,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 1 to 1 ... map[47700:python3.10]"}
+{"when":1724009945,"controller":"rcc.robocorpcode","event":"robot exit","detail":"From rcc \"v17.28.4\" (controller: \"RobocorpCode\") point of view, \"actual main robot run\" was SUCCESS.","comment":"rcc point of view"}
+{"when":1724009945,"controller":"rcc.robocorpcode","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1724009946,"controller":"rcc.robocorpcode","event":"stop","detail":"robot","comment":"done"}
+{"when":1724009946,"controller":"rcc.robocorpcode","event":"start task","detail":"name=BestPlayerTask from=robot.yaml","comment":"at task environment setup"}
+{"when":1724009946,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 00/15 v17.28.4 0.041s Context: \"Aubrey Malabie\" \u003caubreymalabie@Aubreys-MacBook-Pro.local\u003e [darwin_amd64/ProductName: macOS; ProductVersion: 14.6.1; BuildVersion: 23G93]."}
+{"when":1724009946,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 01/15 v17.28.4 0.005s Fresh [shared mode] holotree environment 5751fe1f-e89d-55c5-a85b-0b2718d1872a. (parent/pid: 47323/47782)"}
+{"when":1724009946,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 02/15 v17.28.4 0.006s Holotree blueprint is \"fe9166a8e5e3c709\" [darwin_amd64 with 9 workers on 10 CPUs from \"conda.yaml\"]."}
+{"when":1724009946,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 14/15 v17.28.4 0.301s Restore space from library [with 9 workers on 10 CPUs; with compression: true]."}
+{"when":1724009947,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 15/15 v17.28.4 0.693s Fresh holotree done [with 9 workers on 10 CPUs]."}
+{"when":1724009947,"controller":"rcc.robocorpcode","event":"start","detail":"robot","comment":"started"}
+{"when":1724009947,"controller":"rcc.robocorpcode","event":"run","detail":"robot","comment":"task run"}
+{"when":1724009948,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[47810:python3.10]"}
+{"when":1724009950,"controller":"rcc.robocorpcode","event":"robot exit","detail":"From rcc \"v17.28.4\" (controller: \"RobocorpCode\") point of view, \"actual main robot run\" was FAILURE, reason: exit status 1","comment":"rcc point of view"}
+{"when":1724009950,"controller":"rcc.robocorpcode","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1724009951,"controller":"rcc.robocorpcode","event":"stop","detail":"robot","comment":"done"}
+{"when":1724010269,"controller":"rcc.robocorpcode","event":"start task","detail":"name=PlayerCollectorTask from=robot.yaml","comment":"at task environment setup"}
+{"when":1724010269,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 00/15 v17.28.4 0.142s Context: \"Aubrey Malabie\" \u003caubreymalabie@Aubreys-MacBook-Pro.local\u003e [darwin_amd64/ProductName: macOS; ProductVersion: 14.6.1; BuildVersion: 23G93]."}
+{"when":1724010269,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 01/15 v17.28.4 0.006s Fresh [shared mode] holotree environment 5751fe1f-e89d-55c5-a85b-0b2718d1872a. (parent/pid: 52009/52013)"}
+{"when":1724010269,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 02/15 v17.28.4 0.009s Holotree blueprint is \"fe9166a8e5e3c709\" [darwin_amd64 with 9 workers on 10 CPUs from \"conda.yaml\"]."}
+{"when":1724010269,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 14/15 v17.28.4 0.286s Restore space from library [with 9 workers on 10 CPUs; with compression: true]."}
+{"when":1724010270,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 15/15 v17.28.4 0.767s Fresh holotree done [with 9 workers on 10 CPUs]."}
+{"when":1724010270,"controller":"rcc.robocorpcode","event":"start","detail":"robot","comment":"started"}
+{"when":1724010270,"controller":"rcc.robocorpcode","event":"run","detail":"robot","comment":"task run"}
+{"when":1724010270,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[52032:rcc]"}
+{"when":1724010271,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 1 to 1 ... map[52032:python3.10]"}
+{"when":1724010293,"controller":"rcc.robocorpcode","event":"robot exit","detail":"From rcc \"v17.28.4\" (controller: \"RobocorpCode\") point of view, \"actual main robot run\" was SUCCESS.","comment":"rcc point of view"}
+{"when":1724010293,"controller":"rcc.robocorpcode","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1724010294,"controller":"rcc.robocorpcode","event":"stop","detail":"robot","comment":"done"}
+{"when":1724010294,"controller":"rcc.robocorpcode","event":"start task","detail":"name=PlayerHandlerTask from=robot.yaml","comment":"at task environment setup"}
+{"when":1724010294,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 00/15 v17.28.4 0.040s Context: \"Aubrey Malabie\" \u003caubreymalabie@Aubreys-MacBook-Pro.local\u003e [darwin_amd64/ProductName: macOS; ProductVersion: 14.6.1; BuildVersion: 23G93]."}
+{"when":1724010294,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 01/15 v17.28.4 0.005s Fresh [shared mode] holotree environment 5751fe1f-e89d-55c5-a85b-0b2718d1872a. (parent/pid: 52009/52365)"}
+{"when":1724010294,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 02/15 v17.28.4 0.007s Holotree blueprint is \"fe9166a8e5e3c709\" [darwin_amd64 with 9 workers on 10 CPUs from \"conda.yaml\"]."}
+{"when":1724010294,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 14/15 v17.28.4 0.279s Restore space from library [with 9 workers on 10 CPUs; with compression: true]."}
+{"when":1724010295,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 15/15 v17.28.4 0.665s Fresh holotree done [with 9 workers on 10 CPUs]."}
+{"when":1724010295,"controller":"rcc.robocorpcode","event":"start","detail":"robot","comment":"started"}
+{"when":1724010295,"controller":"rcc.robocorpcode","event":"run","detail":"robot","comment":"task run"}
+{"when":1724010296,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[52369:python3.10]"}
+{"when":1724010299,"controller":"rcc.robocorpcode","event":"robot exit","detail":"From rcc \"v17.28.4\" (controller: \"RobocorpCode\") point of view, \"actual main robot run\" was SUCCESS.","comment":"rcc point of view"}
+{"when":1724010299,"controller":"rcc.robocorpcode","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1724010300,"controller":"rcc.robocorpcode","event":"stop","detail":"robot","comment":"done"}
+{"when":1724010300,"controller":"rcc.robocorpcode","event":"start task","detail":"name=BestPlayerTask from=robot.yaml","comment":"at task environment setup"}
+{"when":1724010300,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 00/15 v17.28.4 0.041s Context: \"Aubrey Malabie\" \u003caubreymalabie@Aubreys-MacBook-Pro.local\u003e [darwin_amd64/ProductName: macOS; ProductVersion: 14.6.1; BuildVersion: 23G93]."}
+{"when":1724010300,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 01/15 v17.28.4 0.006s Fresh [shared mode] holotree environment 5751fe1f-e89d-55c5-a85b-0b2718d1872a. (parent/pid: 52009/52466)"}
+{"when":1724010300,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 02/15 v17.28.4 0.007s Holotree blueprint is \"fe9166a8e5e3c709\" [darwin_amd64 with 9 workers on 10 CPUs from \"conda.yaml\"]."}
+{"when":1724010301,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 14/15 v17.28.4 0.290s Restore space from library [with 9 workers on 10 CPUs; with compression: true]."}
+{"when":1724010301,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 15/15 v17.28.4 0.685s Fresh holotree done [with 9 workers on 10 CPUs]."}
+{"when":1724010301,"controller":"rcc.robocorpcode","event":"start","detail":"robot","comment":"started"}
+{"when":1724010301,"controller":"rcc.robocorpcode","event":"run","detail":"robot","comment":"task run"}
+{"when":1724010302,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[52479:python3.10]"}
+{"when":1724010307,"controller":"rcc.robocorpcode","event":"robot exit","detail":"From rcc \"v17.28.4\" (controller: \"RobocorpCode\") point of view, \"actual main robot run\" was SUCCESS.","comment":"rcc point of view"}
+{"when":1724010307,"controller":"rcc.robocorpcode","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1724010309,"controller":"rcc.robocorpcode","event":"stop","detail":"robot","comment":"done"}
+{"when":1724010620,"controller":"rcc.robocorpcode","event":"start task","detail":"name=PlayerCollectorTask from=robot.yaml","comment":"at task environment setup"}
+{"when":1724010620,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 00/15 v17.28.4 0.094s Context: \"Aubrey Malabie\" \u003caubreymalabie@Aubreys-MacBook-Pro.local\u003e [darwin_amd64/ProductName: macOS; ProductVersion: 14.6.1; BuildVersion: 23G93]."}
+{"when":1724010620,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 01/15 v17.28.4 0.006s Fresh [shared mode] holotree environment 5751fe1f-e89d-55c5-a85b-0b2718d1872a. (parent/pid: 56682/56683)"}
+{"when":1724010620,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 02/15 v17.28.4 0.010s Holotree blueprint is \"fe9166a8e5e3c709\" [darwin_amd64 with 9 workers on 10 CPUs from \"conda.yaml\"]."}
+{"when":1724010621,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 14/15 v17.28.4 0.319s Restore space from library [with 9 workers on 10 CPUs; with compression: true]."}
+{"when":1724010621,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 15/15 v17.28.4 0.764s Fresh holotree done [with 9 workers on 10 CPUs]."}
+{"when":1724010621,"controller":"rcc.robocorpcode","event":"start","detail":"robot","comment":"started"}
+{"when":1724010621,"controller":"rcc.robocorpcode","event":"run","detail":"robot","comment":"task run"}
+{"when":1724010622,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[56714:python3.10]"}
+{"when":1724010643,"controller":"rcc.robocorpcode","event":"robot exit","detail":"From rcc \"v17.28.4\" (controller: \"RobocorpCode\") point of view, \"actual main robot run\" was SUCCESS.","comment":"rcc point of view"}
+{"when":1724010643,"controller":"rcc.robocorpcode","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1724010644,"controller":"rcc.robocorpcode","event":"stop","detail":"robot","comment":"done"}
+{"when":1724010644,"controller":"rcc.robocorpcode","event":"start task","detail":"name=PlayerHandlerTask from=robot.yaml","comment":"at task environment setup"}
+{"when":1724010644,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 00/15 v17.28.4 0.047s Context: \"Aubrey Malabie\" \u003caubreymalabie@Aubreys-MacBook-Pro.local\u003e [darwin_amd64/ProductName: macOS; ProductVersion: 14.6.1; BuildVersion: 23G93]."}
+{"when":1724010644,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 01/15 v17.28.4 0.007s Fresh [shared mode] holotree environment 5751fe1f-e89d-55c5-a85b-0b2718d1872a. (parent/pid: 56682/57028)"}
+{"when":1724010644,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 02/15 v17.28.4 0.007s Holotree blueprint is \"fe9166a8e5e3c709\" [darwin_amd64 with 9 workers on 10 CPUs from \"conda.yaml\"]."}
+{"when":1724010645,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 14/15 v17.28.4 0.307s Restore space from library [with 9 workers on 10 CPUs; with compression: true]."}
+{"when":1724010645,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 15/15 v17.28.4 0.691s Fresh holotree done [with 9 workers on 10 CPUs]."}
+{"when":1724010645,"controller":"rcc.robocorpcode","event":"start","detail":"robot","comment":"started"}
+{"when":1724010645,"controller":"rcc.robocorpcode","event":"run","detail":"robot","comment":"task run"}
+{"when":1724010646,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[57045:python3.10]"}
+{"when":1724010650,"controller":"rcc.robocorpcode","event":"robot exit","detail":"From rcc \"v17.28.4\" (controller: \"RobocorpCode\") point of view, \"actual main robot run\" was SUCCESS.","comment":"rcc point of view"}
+{"when":1724010650,"controller":"rcc.robocorpcode","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1724010651,"controller":"rcc.robocorpcode","event":"stop","detail":"robot","comment":"done"}
+{"when":1724010651,"controller":"rcc.robocorpcode","event":"start task","detail":"name=BestPlayerTask from=robot.yaml","comment":"at task environment setup"}
+{"when":1724010651,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 00/15 v17.28.4 0.039s Context: \"Aubrey Malabie\" \u003caubreymalabie@Aubreys-MacBook-Pro.local\u003e [darwin_amd64/ProductName: macOS; ProductVersion: 14.6.1; BuildVersion: 23G93]."}
+{"when":1724010651,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 01/15 v17.28.4 0.013s Fresh [shared mode] holotree environment 5751fe1f-e89d-55c5-a85b-0b2718d1872a. (parent/pid: 56682/57127)"}
+{"when":1724010651,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 02/15 v17.28.4 0.009s Holotree blueprint is \"fe9166a8e5e3c709\" [darwin_amd64 with 9 workers on 10 CPUs from \"conda.yaml\"]."}
+{"when":1724010652,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 14/15 v17.28.4 0.278s Restore space from library [with 9 workers on 10 CPUs; with compression: true]."}
+{"when":1724010652,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 15/15 v17.28.4 0.702s Fresh holotree done [with 9 workers on 10 CPUs]."}
+{"when":1724010652,"controller":"rcc.robocorpcode","event":"start","detail":"robot","comment":"started"}
+{"when":1724010652,"controller":"rcc.robocorpcode","event":"run","detail":"robot","comment":"task run"}
+{"when":1724010653,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[57157:python3.10]"}
+{"when":1724010658,"controller":"rcc.robocorpcode","event":"robot exit","detail":"From rcc \"v17.28.4\" (controller: \"RobocorpCode\") point of view, \"actual main robot run\" was SUCCESS.","comment":"rcc point of view"}
+{"when":1724010658,"controller":"rcc.robocorpcode","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1724010659,"controller":"rcc.robocorpcode","event":"stop","detail":"robot","comment":"done"}
+{"when":1724010943,"controller":"rcc.robocorpcode","event":"start task","detail":"name=PlayerCollectorTask from=robot.yaml","comment":"at task environment setup"}
+{"when":1724010943,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 00/15 v17.28.4 0.079s Context: \"Aubrey Malabie\" \u003caubreymalabie@Aubreys-MacBook-Pro.local\u003e [darwin_amd64/ProductName: macOS; ProductVersion: 14.6.1; BuildVersion: 23G93]."}
+{"when":1724010943,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 01/15 v17.28.4 0.006s Fresh [shared mode] holotree environment 5751fe1f-e89d-55c5-a85b-0b2718d1872a. (parent/pid: 60907/60909)"}
+{"when":1724010943,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 02/15 v17.28.4 0.008s Holotree blueprint is \"fe9166a8e5e3c709\" [darwin_amd64 with 9 workers on 10 CPUs from \"conda.yaml\"]."}
+{"when":1724010943,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 14/15 v17.28.4 0.327s Restore space from library [with 9 workers on 10 CPUs; with compression: true]."}
+{"when":1724010944,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 15/15 v17.28.4 0.968s Fresh holotree done [with 9 workers on 10 CPUs]."}
+{"when":1724010944,"controller":"rcc.robocorpcode","event":"start","detail":"robot","comment":"started"}
+{"when":1724010944,"controller":"rcc.robocorpcode","event":"run","detail":"robot","comment":"task run"}
+{"when":1724010944,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[60940:rcc]"}
+{"when":1724010945,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 1 to 1 ... map[60940:python3.10]"}
+{"when":1724010953,"controller":"rcc.robocorpcode","event":"robot exit","detail":"From rcc \"v17.28.4\" (controller: \"RobocorpCode\") point of view, \"actual main robot run\" was SUCCESS.","comment":"rcc point of view"}
+{"when":1724010953,"controller":"rcc.robocorpcode","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1724010954,"controller":"rcc.robocorpcode","event":"stop","detail":"robot","comment":"done"}
+{"when":1724010954,"controller":"rcc.robocorpcode","event":"start task","detail":"name=PlayerHandlerTask from=robot.yaml","comment":"at task environment setup"}
+{"when":1724010954,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 00/15 v17.28.4 0.042s Context: \"Aubrey Malabie\" \u003caubreymalabie@Aubreys-MacBook-Pro.local\u003e [darwin_amd64/ProductName: macOS; ProductVersion: 14.6.1; BuildVersion: 23G93]."}
+{"when":1724010954,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 01/15 v17.28.4 0.006s Fresh [shared mode] holotree environment 5751fe1f-e89d-55c5-a85b-0b2718d1872a. (parent/pid: 60907/61074)"}
+{"when":1724010954,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 02/15 v17.28.4 0.006s Holotree blueprint is \"fe9166a8e5e3c709\" [darwin_amd64 with 9 workers on 10 CPUs from \"conda.yaml\"]."}
+{"when":1724010954,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 14/15 v17.28.4 0.340s Restore space from library [with 9 workers on 10 CPUs; with compression: true]."}
+{"when":1724010955,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 15/15 v17.28.4 0.777s Fresh holotree done [with 9 workers on 10 CPUs]."}
+{"when":1724010955,"controller":"rcc.robocorpcode","event":"start","detail":"robot","comment":"started"}
+{"when":1724010955,"controller":"rcc.robocorpcode","event":"run","detail":"robot","comment":"task run"}
+{"when":1724010956,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[61088:python3.10]"}
+{"when":1724010960,"controller":"rcc.robocorpcode","event":"robot exit","detail":"From rcc \"v17.28.4\" (controller: \"RobocorpCode\") point of view, \"actual main robot run\" was SUCCESS.","comment":"rcc point of view"}
+{"when":1724010960,"controller":"rcc.robocorpcode","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1724010961,"controller":"rcc.robocorpcode","event":"stop","detail":"robot","comment":"done"}
+{"when":1724010961,"controller":"rcc.robocorpcode","event":"start task","detail":"name=BestPlayerTask from=robot.yaml","comment":"at task environment setup"}
+{"when":1724010961,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 00/15 v17.28.4 0.044s Context: \"Aubrey Malabie\" \u003caubreymalabie@Aubreys-MacBook-Pro.local\u003e [darwin_amd64/ProductName: macOS; ProductVersion: 14.6.1; BuildVersion: 23G93]."}
+{"when":1724010961,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 01/15 v17.28.4 0.006s Fresh [shared mode] holotree environment 5751fe1f-e89d-55c5-a85b-0b2718d1872a. (parent/pid: 60907/61174)"}
+{"when":1724010961,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 02/15 v17.28.4 0.006s Holotree blueprint is \"fe9166a8e5e3c709\" [darwin_amd64 with 9 workers on 10 CPUs from \"conda.yaml\"]."}
+{"when":1724010962,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 14/15 v17.28.4 0.306s Restore space from library [with 9 workers on 10 CPUs; with compression: true]."}
+{"when":1724010962,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 15/15 v17.28.4 0.762s Fresh holotree done [with 9 workers on 10 CPUs]."}
+{"when":1724010962,"controller":"rcc.robocorpcode","event":"start","detail":"robot","comment":"started"}
+{"when":1724010962,"controller":"rcc.robocorpcode","event":"run","detail":"robot","comment":"task run"}
+{"when":1724010963,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[61208:python3.10]"}
+{"when":1724010968,"controller":"rcc.robocorpcode","event":"robot exit","detail":"From rcc \"v17.28.4\" (controller: \"RobocorpCode\") point of view, \"actual main robot run\" was SUCCESS.","comment":"rcc point of view"}
+{"when":1724010968,"controller":"rcc.robocorpcode","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1724010970,"controller":"rcc.robocorpcode","event":"stop","detail":"robot","comment":"done"}
+{"when":1724011009,"controller":"rcc.robocorpcode","event":"start task","detail":"name=PlayerCollectorTask from=robot.yaml","comment":"at task environment setup"}
+{"when":1724011009,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 00/15 v17.28.4 0.065s Context: \"Aubrey Malabie\" \u003caubreymalabie@Aubreys-MacBook-Pro.local\u003e [darwin_amd64/ProductName: macOS; ProductVersion: 14.6.1; BuildVersion: 23G93]."}
+{"when":1724011009,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 01/15 v17.28.4 0.006s Fresh [shared mode] holotree environment 5751fe1f-e89d-55c5-a85b-0b2718d1872a. (parent/pid: 61814/61819)"}
+{"when":1724011009,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 02/15 v17.28.4 0.008s Holotree blueprint is \"fe9166a8e5e3c709\" [darwin_amd64 with 9 workers on 10 CPUs from \"conda.yaml\"]."}
+{"when":1724011009,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 14/15 v17.28.4 0.310s Restore space from library [with 9 workers on 10 CPUs; with compression: true]."}
+{"when":1724011010,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 15/15 v17.28.4 0.698s Fresh holotree done [with 9 workers on 10 CPUs]."}
+{"when":1724011010,"controller":"rcc.robocorpcode","event":"start","detail":"robot","comment":"started"}
+{"when":1724011010,"controller":"rcc.robocorpcode","event":"run","detail":"robot","comment":"task run"}
+{"when":1724011010,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[61825:python3.10]"}
+{"when":1724011017,"controller":"rcc.robocorpcode","event":"robot exit","detail":"From rcc \"v17.28.4\" (controller: \"RobocorpCode\") point of view, \"actual main robot run\" was SUCCESS.","comment":"rcc point of view"}
+{"when":1724011017,"controller":"rcc.robocorpcode","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1724011018,"controller":"rcc.robocorpcode","event":"stop","detail":"robot","comment":"done"}
+{"when":1724011018,"controller":"rcc.robocorpcode","event":"start task","detail":"name=PlayerHandlerTask from=robot.yaml","comment":"at task environment setup"}
+{"when":1724011018,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 00/15 v17.28.4 0.062s Context: \"Aubrey Malabie\" \u003caubreymalabie@Aubreys-MacBook-Pro.local\u003e [darwin_amd64/ProductName: macOS; ProductVersion: 14.6.1; BuildVersion: 23G93]."}
+{"when":1724011018,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 01/15 v17.28.4 0.006s Fresh [shared mode] holotree environment 5751fe1f-e89d-55c5-a85b-0b2718d1872a. (parent/pid: 61814/61961)"}
+{"when":1724011018,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 02/15 v17.28.4 0.006s Holotree blueprint is \"fe9166a8e5e3c709\" [darwin_amd64 with 9 workers on 10 CPUs from \"conda.yaml\"]."}
+{"when":1724011019,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 14/15 v17.28.4 0.319s Restore space from library [with 9 workers on 10 CPUs; with compression: true]."}
+{"when":1724011019,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 15/15 v17.28.4 0.699s Fresh holotree done [with 9 workers on 10 CPUs]."}
+{"when":1724011019,"controller":"rcc.robocorpcode","event":"start","detail":"robot","comment":"started"}
+{"when":1724011019,"controller":"rcc.robocorpcode","event":"run","detail":"robot","comment":"task run"}
+{"when":1724011020,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[61987:python3.10]"}
+{"when":1724011024,"controller":"rcc.robocorpcode","event":"robot exit","detail":"From rcc \"v17.28.4\" (controller: \"RobocorpCode\") point of view, \"actual main robot run\" was SUCCESS.","comment":"rcc point of view"}
+{"when":1724011024,"controller":"rcc.robocorpcode","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1724011025,"controller":"rcc.robocorpcode","event":"stop","detail":"robot","comment":"done"}
+{"when":1724011025,"controller":"rcc.robocorpcode","event":"start task","detail":"name=BestPlayerTask from=robot.yaml","comment":"at task environment setup"}
+{"when":1724011025,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 00/15 v17.28.4 0.042s Context: \"Aubrey Malabie\" \u003caubreymalabie@Aubreys-MacBook-Pro.local\u003e [darwin_amd64/ProductName: macOS; ProductVersion: 14.6.1; BuildVersion: 23G93]."}
+{"when":1724011025,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 01/15 v17.28.4 0.006s Fresh [shared mode] holotree environment 5751fe1f-e89d-55c5-a85b-0b2718d1872a. (parent/pid: 61814/62065)"}
+{"when":1724011025,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 02/15 v17.28.4 0.006s Holotree blueprint is \"fe9166a8e5e3c709\" [darwin_amd64 with 9 workers on 10 CPUs from \"conda.yaml\"]."}
+{"when":1724011026,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 14/15 v17.28.4 0.324s Restore space from library [with 9 workers on 10 CPUs; with compression: true]."}
+{"when":1724011026,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 15/15 v17.28.4 0.805s Fresh holotree done [with 9 workers on 10 CPUs]."}
+{"when":1724011027,"controller":"rcc.robocorpcode","event":"start","detail":"robot","comment":"started"}
+{"when":1724011027,"controller":"rcc.robocorpcode","event":"run","detail":"robot","comment":"task run"}
+{"when":1724011027,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[62078:python3.10]"}
+{"when":1724011034,"controller":"rcc.robocorpcode","event":"robot exit","detail":"From rcc \"v17.28.4\" (controller: \"RobocorpCode\") point of view, \"actual main robot run\" was SUCCESS.","comment":"rcc point of view"}
+{"when":1724011034,"controller":"rcc.robocorpcode","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1724011036,"controller":"rcc.robocorpcode","event":"stop","detail":"robot","comment":"done"}
+{"when":1724011960,"controller":"rcc.robocorpcode","event":"start task","detail":"name=PlayerCollectorTask from=robot.yaml","comment":"at task environment setup"}
+{"when":1724011960,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 00/15 v17.28.4 0.120s Context: \"Aubrey Malabie\" \u003caubreymalabie@Aubreys-MacBook-Pro.local\u003e [darwin_amd64/ProductName: macOS; ProductVersion: 14.6.1; BuildVersion: 23G93]."}
+{"when":1724011960,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 01/15 v17.28.4 0.006s Fresh [shared mode] holotree environment 5751fe1f-e89d-55c5-a85b-0b2718d1872a. (parent/pid: 73863/73865)"}
+{"when":1724011960,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 02/15 v17.28.4 0.009s Holotree blueprint is \"fe9166a8e5e3c709\" [darwin_amd64 with 9 workers on 10 CPUs from \"conda.yaml\"]."}
+{"when":1724011960,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 14/15 v17.28.4 0.293s Restore space from library [with 9 workers on 10 CPUs; with compression: true]."}
+{"when":1724011961,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 15/15 v17.28.4 0.759s Fresh holotree done [with 9 workers on 10 CPUs]."}
+{"when":1724011961,"controller":"rcc.robocorpcode","event":"start","detail":"robot","comment":"started"}
+{"when":1724011961,"controller":"rcc.robocorpcode","event":"run","detail":"robot","comment":"task run"}
+{"when":1724011962,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[73907:python3.10]"}
+{"when":1724011992,"controller":"rcc.robocorpcode","event":"robot exit","detail":"From rcc \"v17.28.4\" (controller: \"RobocorpCode\") point of view, \"actual main robot run\" was SUCCESS.","comment":"rcc point of view"}
+{"when":1724011992,"controller":"rcc.robocorpcode","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1724011994,"controller":"rcc.robocorpcode","event":"stop","detail":"robot","comment":"done"}
+{"when":1724011994,"controller":"rcc.robocorpcode","event":"start task","detail":"name=PlayerHandlerTask from=robot.yaml","comment":"at task environment setup"}
+{"when":1724011994,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 00/15 v17.28.4 0.043s Context: \"Aubrey Malabie\" \u003caubreymalabie@Aubreys-MacBook-Pro.local\u003e [darwin_amd64/ProductName: macOS; ProductVersion: 14.6.1; BuildVersion: 23G93]."}
+{"when":1724011994,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 01/15 v17.28.4 0.005s Fresh [shared mode] holotree environment 5751fe1f-e89d-55c5-a85b-0b2718d1872a. (parent/pid: 73863/74331)"}
+{"when":1724011994,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 02/15 v17.28.4 0.006s Holotree blueprint is \"fe9166a8e5e3c709\" [darwin_amd64 with 9 workers on 10 CPUs from \"conda.yaml\"]."}
+{"when":1724011994,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 14/15 v17.28.4 0.311s Restore space from library [with 9 workers on 10 CPUs; with compression: true]."}
+{"when":1724011995,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 15/15 v17.28.4 0.709s Fresh holotree done [with 9 workers on 10 CPUs]."}
+{"when":1724011995,"controller":"rcc.robocorpcode","event":"start","detail":"robot","comment":"started"}
+{"when":1724011995,"controller":"rcc.robocorpcode","event":"run","detail":"robot","comment":"task run"}
+{"when":1724011995,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[74350:python3.10]"}
+{"when":1724012001,"controller":"rcc.robocorpcode","event":"robot exit","detail":"From rcc \"v17.28.4\" (controller: \"RobocorpCode\") point of view, \"actual main robot run\" was SUCCESS.","comment":"rcc point of view"}
+{"when":1724012001,"controller":"rcc.robocorpcode","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1724012002,"controller":"rcc.robocorpcode","event":"stop","detail":"robot","comment":"done"}
+{"when":1724012002,"controller":"rcc.robocorpcode","event":"start task","detail":"name=BestPlayerTask from=robot.yaml","comment":"at task environment setup"}
+{"when":1724012002,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 00/15 v17.28.4 0.045s Context: \"Aubrey Malabie\" \u003caubreymalabie@Aubreys-MacBook-Pro.local\u003e [darwin_amd64/ProductName: macOS; ProductVersion: 14.6.1; BuildVersion: 23G93]."}
+{"when":1724012002,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 01/15 v17.28.4 0.005s Fresh [shared mode] holotree environment 5751fe1f-e89d-55c5-a85b-0b2718d1872a. (parent/pid: 73863/74447)"}
+{"when":1724012002,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 02/15 v17.28.4 0.006s Holotree blueprint is \"fe9166a8e5e3c709\" [darwin_amd64 with 9 workers on 10 CPUs from \"conda.yaml\"]."}
+{"when":1724012002,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 14/15 v17.28.4 0.285s Restore space from library [with 9 workers on 10 CPUs; with compression: true]."}
+{"when":1724012003,"controller":"rcc.robocorpcode","event":"environment","detail":"build","comment":"Progress: 15/15 v17.28.4 0.697s Fresh holotree done [with 9 workers on 10 CPUs]."}
+{"when":1724012003,"controller":"rcc.robocorpcode","event":"start","detail":"robot","comment":"started"}
+{"when":1724012003,"controller":"rcc.robocorpcode","event":"run","detail":"robot","comment":"task run"}
+{"when":1724012003,"controller":"rcc.robocorpcode","event":"processes","detail":"updated","comment":"count from 0 to 1 ... map[74474:python3.10]"}
+{"when":1724012009,"controller":"rcc.robocorpcode","event":"robot exit","detail":"From rcc \"v17.28.4\" (controller: \"RobocorpCode\") point of view, \"actual main robot run\" was SUCCESS.","comment":"rcc point of view"}
+{"when":1724012009,"controller":"rcc.robocorpcode","event":"processes","detail":"final","comment":"count: 0"}
+{"when":1724012010,"controller":"rcc.robocorpcode","event":"stop","detail":"robot","comment":"done"}

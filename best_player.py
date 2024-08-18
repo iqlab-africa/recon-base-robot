@@ -17,7 +17,7 @@ BEST_PLAYER = f"{PREFIX}bestplayer"
 tag3 = "🌸 🌸 🌸 🌸 BestPlayerRobot 🍎 "
 
 os.environ["RC_WORKITEM_ADAPTER"] = "FileAdapter"
-os.environ["RC_WORKITEM_INPUT_PATH"] = "devdata/input_to_best_player/work-items.json"
+os.environ["RC_WORKITEM_INPUT_PATH"] = "devdata/bestplayer/work-items.json"
 os.environ["RC_WORKITEM_OUTPUT_PATH"] = "output/bestplayer/work-items.json"
 
 
