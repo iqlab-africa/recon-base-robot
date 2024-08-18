@@ -8,14 +8,18 @@ The robots interact with the serverless Azure Functions that live in https://git
 
 ## Technologies
 
-Azure Functions
-Azure Storage
-Azure Key Vault
-Azure Postgres Database
-Python
-Typescript
+* Azure Functions
+* Azure Storage
+* Azure Key Vault
+* Azure Postgres Database
+* Python
+* Typescript
 
-## Robocorp Control Room
+## Robocorp Control Room 
+![robocorp2](https://github.com/user-attachments/assets/ea4e99eb-5701-40ff-b274-3e6b5a55fa4d) 
 
 Screenshots from the deployment:
 
+<img width="2339" alt="Screenshot 2024-08-18 at 16 10 21" src="https://github.com/user-attachments/assets/53f7cfce-9946-4c49-b18a-df027012a82b">
+
+<img width="2376" alt="Screenshot 2024-08-18 at 19 40 21" src="https://github.com/user-attachments/assets/b526bdc5-0cbc-49f3-849e-54250fe03037">
