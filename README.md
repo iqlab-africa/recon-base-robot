@@ -24,6 +24,7 @@ Screenshots from the deployment:
 
 <img width="2376" alt="Process Running" src="https://github.com/user-attachments/assets/b526bdc5-0cbc-49f3-849e-54250fe03037">
 
+## Demo
 Assuming that you have cloned the repository you can run the 3 steps of the Robot using run.py. See the script at: https://github.com/iqlab-africa/recon-base-robot/blob/main/run.py
 
 This simulates a Process defined in the Control Room. Each step passes on work item data to the next step. 
