@@ -14,3 +14,8 @@ Azure Key Vault
 Azure Postgres Database
 Python
 Typescript
+
+## Robocorp Control Room
+
+Screenshots from the deployment:
+
