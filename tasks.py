@@ -5,7 +5,12 @@ from robocorp.tasks import task
 from robocorp import workitems
 from datetime import datetime
 import pandas as pd
+import random
+from azure.storage.blob import BlobServiceClient
 
+from webhook import send_webhook
+
+#
 PING_URL = "https://autofunctionapp.azurewebsites.net/api/ping"
 DEV_ADD_USER_URL = "https://autofunctionapp.azurewebsites.net/api/adddevuser"
 DEV_LIST_USERS = "https://autofunctionapp.azurewebsites.net/api/listdevusers"
@@ -14,26 +19,24 @@ DOWNLOAD = "https://autofunctionapp.azurewebsites.net/api/download"
 
 CSV_FILE_NAME = "footbal_players.csv"
 CSV_OUTPUT_FILE_PATH = "output/players.csv"
-tag = "🍐🍐 ReconBaseRobot 🍐 "
+tag = "🍐🍐 PlayerCollectorRobot 🍐 "
 
 
 @task
-def dev_robot_task():
+def player_collector_task():
     """Demonstrate connection to Azure Functions and Postgres database. Read the code to see the different api's"""
-    print(f"\n\n{tag} ReconBaseRobot starting ...")
+    print(f"\n\n{tag} PlayerCollectorRobot starting ...")
     ping()
     add_user()
     get_users()
     download_files_from_azure_storage()
-    print(f"\n\n{tag} ReconBaseRobot completed  🥬 \n\n")
-
+    print(f"\n\n{tag} PlayerCollectorRobot completed  🥬 \n\n")
 
 def ping():
     """Ping Azure Functions"""
     print(f"\n... 💙 💙 💙 calling {PING_URL}")
     res = requests.get(url=PING_URL)
     print(f"🔴 🔴 Ping response, 🥬 status_code: {res.status_code} \n{res.text}\n\n ")
-
 
 def add_user():
     """Call Azure function to add dev user"""
@@ -53,7 +56,6 @@ def add_user():
     except Exception as e:
         print(f"Error adding user: 😈 {e} 😈")
 
-
 def get_users():
     """Call Azure function to list dev users"""
     print(f"\n... 💙 💙 💙 calling {DEV_LIST_USERS}")
@@ -71,10 +73,6 @@ def get_users():
     except Exception as e:
         print(f"😈 Error listing users: 😈 {e} 😈")
 
-
-from azure.storage.blob import BlobServiceClient
-
-
 def download_files_from_azure_storage():
     """Download files from Azure Storage account. download both excel and csv versions and create dataFrames"""
 
@@ -90,7 +88,6 @@ def download_files_from_azure_storage():
             f"\n{tag} 👿 download stumbled, grumbled and fell down!, no workitems will be created! 👿👿👿\n"
         )
 
-
 def _print_data_frame(df: pd.DataFrame) -> list:
 
     print(f"{tag} head: {df.head()}\n")
@@ -100,7 +97,6 @@ def _print_data_frame(df: pd.DataFrame) -> list:
     print(f"{tag} player list heading to workitems: 🍑 {player_list} 🍑\n")
     print(f"{tag} Number of players from file: {len(player_list)}\n")
     return player_list
-
 
 def _download(fileName):
     """Download the file from Azure Storage via Azure Function api call"""
@@ -139,7 +135,6 @@ def _download(fileName):
         print(f"{tag} ERROR downloading file: {fileName}: {e}")
         raise ValueError(f"File download failed: {e}")
 
-
 def create_work_items(names: list):
     """Send names to work items for the next robot"""
     print(f"{tag} sending {len(names)} names to workitems")
@@ -147,49 +142,12 @@ def create_work_items(names: list):
     for name in names:
         if name == "nan":
             continue
-        workitems.outputs.create({"name": name})
+        data = {"name": name}
+        workitems.outputs.create(data)
         print(f"{tag} work item created: {name}.")
         count = count + 1
 
-    print(f"{tag} {count} workitems created. Work completed, Boss!")
+    print(f"\n\n{tag} ... {count} workitems processed; calling webhook: 🔵 {WEBHOOK}")
+    send_webhook(robotName="PlayerCollectorRobot", processed=count, emoji="🍎")
 
-
-@task
-def name_handler_task():
-    """Process all the produced input Work Items from the previous step."""
-    print(f"\n\n{tag2}... start processing names from workitems ...")
-
-    count = 0
-    for item in workitems.inputs:
-        try:
-            name = item.payload["name"]
-            print(f"{tag2} ... Processing name: {name}")
-            item.done()
-            count = count + 1
-        except Exception as e:
-            print(f"{tag2} Error processing name: {item.payload}")
-            item.fail(
-                "APPLICATION",
-                code="400",
-                message="Could not process a name",
-            )
-    # Tell someone!
-    print(f"\n\n{tag2} ... workitems processed; calling webhook: {WEBHOOK}")
-    data = {
-        "robotName": "NameHandlerRobot",
-        "processed": count,
-        "robotDate": datetime.now().ctime(),
-        "emoji": "🍎",
-    }
-    json_object = json.dumps(data)
-    # send data to webhook
-    res = requests.post(
-        url=WEBHOOK,
-        data=json_object,
-    )
-    print(
-        f"\n{tag2} ✅ ✅ webhook response, 🥬 status_code: {res.status_code} - {res.text}\n\n "
-    )
-
-
-tag2 = "🍎 🍎 ReconBaseRobot#2 🍎 "
+    print(f"\n{tag} 🅿️  {count} workitems created. Work completed, Boss! 🅿️")

@@ -5,11 +5,16 @@
     "python.terminal.activateEnvironment": false,
     "cSpell.words": [
         "accountname",
+        "adddevuser",
         "astype",
+        "bestplayer",
         "creds",
+        "devdata",
         "footbal",
         "iloc",
         "keyvault",
+        "listdevusers",
+        "Maradona",
         "numpy",
         "PYTHONPATH",
         "readall",
@@ -17,6 +22,7 @@
         "rpaframework",
         "storagekey",
         "truststore",
+        "WORKITEM",
         "workitems"
     ]
 }
