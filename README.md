@@ -20,6 +20,10 @@ The robots interact with the serverless Azure Functions that live in https://git
 
 Screenshots from the deployment:
 
-<img width="2339" alt="Screenshot 2024-08-18 at 16 10 21" src="https://github.com/user-attachments/assets/53f7cfce-9946-4c49-b18a-df027012a82b">
+<img width="2339" alt="Control Room Activity" src="https://github.com/user-attachments/assets/53f7cfce-9946-4c49-b18a-df027012a82b">
 
-<img width="2376" alt="Screenshot 2024-08-18 at 19 40 21" src="https://github.com/user-attachments/assets/b526bdc5-0cbc-49f3-849e-54250fe03037">
+<img width="2376" alt="Process Running" src="https://github.com/user-attachments/assets/b526bdc5-0cbc-49f3-849e-54250fe03037">
+
+Assuming that you have cloned the repository you can run the 3 steps of the Robot using run.py see https://github.com/iqlab-africa/recon-base-robot/blob/main/run.py
+
+This simulates a Process defined in the Control Room. Each step passes on work item data to the next step. 

@@ -1,3 +1,4 @@
 ./push.sh ~/.ssh/i_account2 git@github.com:iqlab-africa/recon-base-robot.git "🔵 added script to run all robots"
 
+./pull.sh ~/.ssh/i_account2 git@github.com:iqlab-africa/recon-base-robot.git "🔵 pulling "
 
