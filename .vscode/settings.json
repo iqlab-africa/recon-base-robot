@@ -8,6 +8,7 @@
         "adddevuser",
         "astype",
         "bestplayer",
+        "bestplayerlist",
         "creds",
         "devdata",
         "footbal",
@@ -23,6 +24,7 @@
         "rpaframework",
         "storagekey",
         "truststore",
+        "webhooklist",
         "WORKITEM",
         "workitems"
     ]

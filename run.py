@@ -3,6 +3,8 @@ import time
 import subprocess
 import shutil
 
+from read_database import start_reading_database
+
 COLLECTOR = 'rcc task run --robot robot.yaml  --account robocorp-code --task PlayerCollectorTask --controller RobocorpCode'
 HANDLER = "rcc task run --robot robot.yaml  --account robocorp-code --task PlayerHandlerTask --controller RobocorpCode"
 BESTPLAYER = "rcc task run --robot robot.yaml  --account robocorp-code --task BestPlayerTask --controller RobocorpCode"
@@ -16,7 +18,7 @@ def start():
     print(f"\n\n{tag} Robot automation script starting ...\n")
 
     start_time = time.time()
-    
+
     subprocess.run(COLLECTOR, shell=True)
     print(f"\n\n\n{tag} PlayerCollectorRobot has completed, should copy workitems folder ...")
 
@@ -34,9 +36,11 @@ def start():
     end_time = time.time()
     elapsed_time = end_time - start_time
     msg = 'Elapsed time: {:.1f} seconds'.format(elapsed_time)
-    
+
     print(f"\n\n{tag} {msg} ")
     print(f"\n{tag} BestPlayerRobot has completed, work is finished, Boss!\n\n")
+    
+    start_reading_database()
 
 
 def copy_folder(source_folder, destination_folder):
