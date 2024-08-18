@@ -1,4 +1,5 @@
 import json
+import os
 import random
 import requests
 from robocorp.tasks import task
@@ -17,7 +18,9 @@ DEV_LIST_USERS = "https://autofunctionapp.azurewebsites.net/api/listdevusers"
 WEBHOOK = "https://autofunctionapp.azurewebsites.net/api/webhook"
 DOWNLOAD = "https://autofunctionapp.azurewebsites.net/api/download"
 
-CSV_FILE_NAME = "footbal_players.csv"
+os.environ["RC_WORKITEM_OUTPUT_PATH"] = "output/collector/work-items.json"
+
+CSV_FILE_NAME = "football_players.csv"
 CSV_OUTPUT_FILE_PATH = "output/players.csv"
 tag = "🍐🍐 PlayerCollectorRobot 🍐 "
 
@@ -30,7 +33,9 @@ def player_collector_task():
     add_user()
     get_users()
     download_files_from_azure_storage()
-    print(f"\n\n{tag} PlayerCollectorRobot completed  🥬 \n\n")
+    #
+    send_webhook(robotName="PlayerCollectorRobot", processed=1, emoji="🥬")
+    print(f"\n\n{tag} Work is done, Jackson!  🥬 \n\n")
 
 def ping():
     """Ping Azure Functions"""
@@ -64,9 +69,6 @@ def get_users():
         res = requests.get(url=DEV_LIST_USERS)
         print(f"🍐 🍐 get_users response, 🥬 status_code: {res.status_code} \n")
         m_json = json.loads(res.text)
-        for m in m_json:
-            print(f"🔶🔶 dev user: {m}")
-
         print(
             f"\n🍐 🍐 get_users response, 🥬 status_code: {res.status_code} users:{len(m_json)}\n\n "
         )
@@ -82,7 +84,7 @@ def download_files_from_azure_storage():
         player_list = _print_data_frame(csv_data_frame)
 
     if len(player_list) > 0:
-        create_work_items(player_list)
+        create_work_item(player_list)
     else:
         print(
             f"\n{tag} 👿 download stumbled, grumbled and fell down!, no workitems will be created! 👿👿👿\n"
@@ -135,19 +137,13 @@ def _download(fileName):
         print(f"{tag} ERROR downloading file: {fileName}: {e}")
         raise ValueError(f"File download failed: {e}")
 
-def create_work_items(names: list):
+def create_work_item(names: list):
     """Send names to work items for the next robot"""
     print(f"{tag} sending {len(names)} names to workitems")
     count = 0
-    for name in names:
-        if name == "nan":
-            continue
-        data = {"name": name}
-        workitems.outputs.create(data)
-        print(f"{tag} work item created: {name}.")
-        count = count + 1
+    data = {'players': names}
+    workitems.outputs.create(data)
+    print(f"\n\n{tag} ... {len(names)} items in workitem created; calling webhook: 🔵 {WEBHOOK}")
+    send_webhook(robotName="PlayerCollectorRobot", processed=len(names), emoji="🍎")
 
-    print(f"\n\n{tag} ... {count} workitems processed; calling webhook: 🔵 {WEBHOOK}")
-    send_webhook(robotName="PlayerCollectorRobot", processed=count, emoji="🍎")
-
-    print(f"\n{tag} 🅿️  {count} workitems created. Work completed, Boss! 🅿️")
+    print(f"\n{tag} 🅿️  1 workitem created. Work completed, Boss! 🅿️")
