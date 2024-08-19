@@ -15,7 +15,7 @@ from webhook import send_webhook
 CSV_FILE_NAME = "football_players.csv"
 CSV_OUTPUT_FILE_PATH = "output/players.csv"
 
-tag2 = "🍎 🍎 PlayerHandlerRobot 🍎 "
+tag2 = "🍎🍎 PlayerHandlerRobot 🍎 "
 os.environ["RC_WORKITEM_ADAPTER"] = "FileAdapter"
 os.environ['RC_WORKITEM_INPUT_PATH'] = 'devdata/input_to_player_handler/work-items.json'
 os.environ["RC_WORKITEM_OUTPUT_PATH"] = 'output/handler/work-items.json'
