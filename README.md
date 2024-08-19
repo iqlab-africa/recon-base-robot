@@ -30,4 +30,7 @@ Assuming that you have cloned the repository you can run the 3 steps of the Robo
 
 This simulates a Process defined in the Control Room. Each step passes on work item data to the next step. The script reads the Azure Postgres database to display data created by the Robot runs.
 
-### Screenshots from run.py script:
+### Screenshots from run.py script:  
+<img width="1396" alt="Screenshot 2024-08-19 at 01 57 48" src="https://github.com/user-attachments/assets/34cc3430-aae1-416e-8c67-626296bdc1d4">  
+<img width="783" alt="Screenshot 2024-08-19 at 01 57 04" src="https://github.com/user-attachments/assets/cd861e54-204a-4cbe-9627-38d125fb3f95">  
+<img width="750" alt="Screenshot 2024-08-19 at 01 56 20" src="https://github.com/user-attachments/assets/bf066b31-2f8d-4ce2-9728-6dc47a97dce5">  
