@@ -144,6 +144,4 @@ def create_work_item(names: list):
     data = {'players': names}
     workitems.outputs.create(data)
     print(f"\n\n{tag} ... {len(names)} items in workitem created; calling webhook: 🔵 {WEBHOOK}")
-    send_webhook(robotName="PlayerCollectorRobot", processed=len(names), emoji="🍎")
-
-    print(f"\n{tag} 🅿️  1 workitem created. Work completed, Boss! 🅿️")
+    print(f"{tag} 🅿️  1 workitem created. Work completed, Boss! 🅿️")
